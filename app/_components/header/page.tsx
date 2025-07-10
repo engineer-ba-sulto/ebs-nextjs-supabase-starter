@@ -7,7 +7,7 @@ export function Header() {
     <header className="w-full flex justify-center border-b border-b-foreground/10 h-16">
       <nav className="w-full max-w-5xl flex justify-between items-center p-3 px-5 text-sm">
         <div className="flex gap-5 items-center font-semibold">
-          <Link href={"/"}>Next.js Supabase Starter</Link>
+          <Link href={"/"}>Engineer BA-Sulto Next.js Supabase Starter</Link>
         </div>
         <div className="flex gap-5 items-center">
           <AuthButton />
