@@ -16,7 +16,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-export function SignUpForm({
+export default function SignUpForm({
   className,
   ...props
 }: React.ComponentPropsWithoutRef<"div">) {

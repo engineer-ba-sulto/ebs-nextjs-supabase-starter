@@ -1,5 +1,5 @@
 import Footer from "../_components/footer";
-import { Header } from "../_components/header/page";
+import Header from "../_components/header/page";
 
 export default function ProtectedLayout({
   children,
