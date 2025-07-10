@@ -1,7 +1,7 @@
-import { AuthButton } from "@/components/auth-button";
-import { DeployButton } from "@/components/deploy-button";
-import { ThemeSwitcher } from "@/components/theme-switcher";
 import Link from "next/link";
+import { AuthButton } from "../_components/auth-button";
+import { DeployButton } from "../_components/deploy-button";
+import { ThemeSwitcher } from "../_components/theme-switcher";
 
 export default function ProtectedLayout({
   children,
