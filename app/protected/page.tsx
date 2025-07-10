@@ -9,8 +9,8 @@ export default async function ProtectedPage() {
   }
 
   return (
-    <main className="flex-1 w-full flex flex-col gap-12">
-      <h2 className="font-bold text-2xl mb-4">Service Page</h2>
+    <main className="w-full flex-1 flex flex-col max-w-5xl p-5">
+      <h2 className="font-bold text-2xl text-center">Service Page</h2>
     </main>
   );
 }

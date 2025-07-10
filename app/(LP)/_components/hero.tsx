@@ -1,3 +1,7 @@
 export function Hero() {
-  return <div className="flex flex-col gap-16 items-center">Hero Section</div>;
+  return (
+    <div className="w-full flex flex-col items-center bg-gray-200">
+      Hero Section
+    </div>
+  );
 }
