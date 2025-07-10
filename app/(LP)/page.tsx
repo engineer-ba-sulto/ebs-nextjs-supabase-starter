@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { AuthButton } from "../_components/auth-button";
 import { DeployButton } from "../_components/deploy-button";
-import { Hero } from "../_components/hero";
 import { ThemeSwitcher } from "../_components/theme-switcher";
+import { Hero } from "./_components/hero";
 
 export default function Home() {
   return (
