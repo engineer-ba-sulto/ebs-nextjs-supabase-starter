@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AuthButton } from "../_components/auth-button";
+import { AuthButton } from "../_components/auth-button/page";
 import { ThemeSwitcher } from "../_components/theme-switcher";
 import { Hero } from "./_components/hero";
 
